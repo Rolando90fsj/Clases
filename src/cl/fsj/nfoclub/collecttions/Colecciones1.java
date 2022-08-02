@@ -40,10 +40,75 @@ public class Colecciones1 {
 		System.out.println(decimales.indexOf(32.4)); //0
 		System.out.println(decimales.indexOf(32.34)); //2
 		System.out.println(decimales.indexOf(32.4456)); //-1
-		System.out.println("**************SET***********");
-		// Set
-		Set<String> nicknames = new HashSet<>();
 		
+//		System.out.println("**************SET***********");
+//		Muestra los valores ingresados de forma desordenado
+//		Set<String> nicknames = new HashSet<>();
+//		
+//		 nicknames.add("ducksito");
+//		 nicknames.add("rolando90");
+//		 nicknames.add("polypleti");
+//		 nicknames.add("gonzalezlillo");
+//		 nicknames.add("edgamer63");
+//		 nicknames.add("silvia2015");
+//		 nicknames.add("sebaoteiza");
+//		 nicknames.add("callita");
+//		 nicknames.add("giornobanana");
+//		 nicknames.add("lucianocesc");
+//		 nicknames.add("felicity");
+//		 nicknames.add("kernelweb");
+//		 nicknames.add("cr111");
+//		 nicknames.add("kessillox");
+//		 
+//		 System.out.println(nicknames);
+		 
+//		 System.out.println("**************LinkedHashSet***********");
+//		 Se muestra en el orden ingresado
+		
+//		 Set<String> nicknames = new LinkedHashSet<>();
+//			
+//		 nicknames.add("ducksito");
+//		 nicknames.add("rolando90");
+//		 nicknames.add("polypleti");
+//		 nicknames.add("gonzalezlillo");
+//		 nicknames.add("edgamer63");
+//		 nicknames.add("silvia2015");
+//		 nicknames.add("sebaoteiza");
+//		 nicknames.add("callita");
+//		 nicknames.add("giornobanana");
+//		 nicknames.add("lucianocesc");
+//		 nicknames.add("felicity");
+//		 nicknames.add("kernelweb");
+//		 nicknames.add("cr111");
+//		 nicknames.add("kessillox");
+//		 
+//		 System.out.println(nicknames);
+		
+//		 System.out.println("**************TreeSet***********");
+//		 //Ordena en funcion alfabetica (a-z)
+//		 Set<String> nicknames = new TreeSet<>();
+//			
+//		 nicknames.add("ducksito");
+//		 nicknames.add("rolando90");
+//		 nicknames.add("polypleti");
+//		 nicknames.add("gonzalezlillo");
+//		 nicknames.add("edgamer63");
+//		 nicknames.add("silvia2015");
+//		 nicknames.add("sebaoteiza");
+//		 nicknames.add("callita");
+//		 nicknames.add("giornobanana");
+//		 nicknames.add("lucianocesc");
+//		 nicknames.add("felicity");
+//		 nicknames.add("kernelweb");
+//		 nicknames.add("cr111");
+//		 nicknames.add("kessillox");
+//		 
+//		 System.out.println(nicknames);
+//		
+		 System.out.println("**************Queue***********");
+		 //Imprime toda la cola y puede repetir ingresos
+		 Queue <String> nicknames = new LinkedList<>();
+			
 		 nicknames.add("ducksito");
 		 nicknames.add("rolando90");
 		 nicknames.add("polypleti");
@@ -59,11 +124,8 @@ public class Colecciones1 {
 		 nicknames.add("cr111");
 		 nicknames.add("kessillox");
 		 
-		 
 		 System.out.println(nicknames);
 		 
-		
-		
 	}
 	 
 	
